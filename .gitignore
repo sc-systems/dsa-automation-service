@@ -1,0 +1,27 @@
+cat > .gitignore << 'EOF'
+#Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+
+#Environment variables
+.env
+.env.local
+
+#Build
+build/
+dist/
+
+#Logs
+*.log
+npm-debug.log*
+
+#OS
+.DS_Store
+Thumbs.db
+
+#IDE
+.vscode/
+.idea/
+EOF
